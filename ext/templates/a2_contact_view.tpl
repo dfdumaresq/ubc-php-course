@@ -1,0 +1,1 @@
+<p>If you're interested in helping, have questions, or concerns, send an email to help at CanadaFightsClimateChange dot ca</p>

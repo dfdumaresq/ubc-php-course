@@ -1,0 +1,27 @@
+<?php
+/**
+ * include base dir and paths
+ *
+ * @package
+ * @author Dave Dumaresq
+ */
+
+define('DIR_BASE',      	dirname( dirname( __FILE__ ) ) . '/');
+define('PATH_TO_EXT', 		DIR_BASE . '../ext/');
+define('PATH_TO_ROOT', 		DIR_BASE . '../');
+define('PATH_TO_JPGRAPH', 	DIR_BASE . '../jpgraph/src');
+
+
+// Please adjust include path as necessary for your system. -dave
+$includePath 	= ini_get("include_path");
+$newIncludePath = $includePath . ':' . PATH_TO_JPGRAPH . ':' . PATH_TO_EXT;
+ini_set("include_path", $newIncludePath);
+
+include "MySmarty.php";
+include "functions.php";
+include "navbar.php";
+include "product.class.php";
+include "agent.class.php";
+include "jpgraph.php";
+include "jpgraph_bar.php";
+include "linkbar.php";		// Used by Assignment 2

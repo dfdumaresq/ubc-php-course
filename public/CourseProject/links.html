@@ -1,0 +1,333 @@
+<html>
+<body>
+	<style>
+
+	body {
+	}
+	table.brownweave, td.brownweave, th.brownweave {
+		background-image: url("images/backgrounds/brown_weave.png");
+	}
+	#label {
+		position: absolute;
+		visibility: hidden;
+		z-index: 200;
+	}
+	fieldset {
+		border: medium groove;
+		width: 40%;
+	}
+	td {
+		font-family: Verdana,Arial,Helvetica,sans-serif;
+		font-size: 12px;
+	}
+	th {
+		font-family: Verdana,Arial,Helvetica,sans-serif;
+		font-size: 12px;
+	}
+	td.title {
+		font-family: Verdana,Arial,Helvetica,sans-serif;
+		font-size: 18px;
+		font-weight: normal;
+		text-align: center;
+	}
+	A.nodecoration {
+		font-family: Verdana,Arial,Helvetica,sans-serif;
+		text-decoration: none;
+	}
+	ul {
+		font-family: Verdana,Arial,Helvetica,sans-serif;
+		font-size: 12px;
+	}
+	ul.arrows {
+		list-style-image: url("images/arrows.gif");
+	}
+	a.boldit:hover {
+	}
+	h2 {
+		font-family: Verdana,Arial,Helvetica,sans-serif;
+		font-size: 20px;
+	}
+	h3 {
+		font-family: Verdana,Arial,Helvetica,sans-serif;
+		font-size: 18px;
+	}
+	h4 {
+		font-family: Verdana,Arial,Helvetica,sans-serif;
+		font-size: 16px;
+	}
+	.buttontext {
+		background: none repeat scroll 0 0 #CC0000;
+		color: White;
+		font-family: Verdana,Arial,Helvetica,sans-serif;
+		font-size: 12px;
+	}
+	.buttontextmaroon {
+		background: none repeat scroll 0 0 maroon;
+		color: White;
+		font-family: Verdana,Arial,Helvetica,sans-serif;
+		font-size: 12px;
+		font-weight: bold;
+	}
+	.background {
+		background: none repeat scroll 0 0 background;
+		color: White;
+		font-family: Verdana,Arial,Helvetica,sans-serif;
+		font-size: 12px;
+		font-weight: bold;
+	}
+	.silverbackground {
+		background: none repeat scroll 0 0 silver;
+		color: White;
+		font-family: Verdana,Arial,Helvetica,sans-serif;
+		font-size: 12px;
+		font-weight: bold;
+	}
+	.D7991A {
+		font-weight: bold;
+	}
+	.E3E3EFbackground {
+		background: none repeat scroll 0 0 #E3E3EF;
+		color: Black;
+		font-family: Verdana,Arial,Helvetica,sans-serif;
+		font-size: 12px;
+	}
+	.F9F9F9background {
+		background: none repeat scroll 0 0 #F9F9F9;
+		color: Black;
+		font-family: Verdana,Arial,Helvetica,sans-serif;
+		font-size: 12px;
+		font-weight: bold;
+	}
+	.bluebackground {
+		background: none repeat scroll 0 0 #99CCFF;
+		color: Black;
+		font-family: Verdana,Arial,Helvetica,sans-serif;
+		font-size: 12px;
+		font-weight: bold;
+	}
+	.aquabackground {
+		background: none repeat scroll 0 0 aqua;
+		color: Black;
+		font-family: Verdana,Arial,Helvetica,sans-serif;
+		font-size: 12px;
+		font-weight: bold;
+	}
+	.greenbackground {
+		background: none repeat scroll 0 0 #006666;
+		color: White;
+		font-family: Verdana,Arial,Helvetica,sans-serif;
+		font-size: 12px;
+		font-weight: bold;
+	}
+	.redbackground {
+		background: none repeat scroll 0 0 #660066;
+		color: white;
+		font-family: Verdana,Arial,Helvetica,sans-serif;
+		font-size: 12px;
+		font-weight: bold;
+	}
+	.redbackground10 {
+		background: none repeat scroll 0 0 #660066;
+		color: White;
+		font-family: Verdana,Arial,Helvetica,sans-serif;
+		font-size: 10px;
+		font-weight: bold;
+	}
+	.bluelightbackground {
+		background: none repeat scroll 0 0 #99CCFF;
+		color: Black;
+		font-family: Verdana,Arial,Helvetica,sans-serif;
+		font-size: 12px;
+		font-weight: bold;
+	}
+	.maroonbackground {
+		background: none repeat scroll 0 0 maroon;
+		color: White;
+		font-family: Verdana,Arial,Helvetica,sans-serif;
+		font-size: 12px;
+		font-weight: bold;
+	}
+	.limebackground {
+		background: none repeat scroll 0 0 lime;
+		color: Black;
+		font-family: Verdana,Arial,Helvetica,sans-serif;
+		font-size: 12px;
+		font-weight: bold;
+	}
+	.navybackground {
+		background: none repeat scroll 0 0 navy;
+		color: white;
+		font-family: Verdana,Arial,Helvetica,sans-serif;
+		font-size: 12px;
+		font-weight: bold;
+	}
+	.redlightbackground {
+		background: none repeat scroll 0 0 #FFCCCC;
+		color: Black;
+		font-family: Verdana,Arial,Helvetica,sans-serif;
+		font-size: 12px;
+		font-weight: bold;
+	}
+	.greenlightbackground {
+		background: none repeat scroll 0 0 #CCFFCC;
+		color: Black;
+		font-family: Verdana,Arial,Helvetica,sans-serif;
+		font-size: 12px;
+		font-weight: bold;
+	}
+	.normal10boldwhite {
+		color: White;
+		font-family: Verdana,Arial,Helvetica,sans-serif;
+		font-size: 10px;
+		font-weight: bold;
+	}
+	.normal10 {
+		font-family: Verdana,Arial,Helvetica,sans-serif;
+		font-size: 10px;
+	}
+	.normal10bolditalic {
+		font-family: Verdana,Arial,Helvetica,sans-serif;
+		font-size: 10px;
+		font-style: italic;
+		font-weight: bold;
+	}
+	.normal10red {
+		color: maroon;
+		font-family: Verdana,Arial,Helvetica,sans-serif;
+		font-size: 10px;
+	}
+	.norma110bold {
+		font-family: Verdana,Arial,Helvetica,sans-serif;
+		font-size: 10px;
+		font-weight: bold;
+	}
+	.normal10boldred {
+		color: maroon;
+		font-family: Verdana,Arial,Helvetica,sans-serif;
+		font-size: 10px;
+		font-weight: bold;
+	}
+	.normal12 {
+		font-family: Verdana,Arial,Helvetica,sans-serif;
+		font-size: 12px;
+	}
+	.normal12italic {
+		font-family: Verdana,Arial,Helvetica,sans-serif;
+		font-size: 12px;
+		font-style: italic;
+	}
+	.normal12bold {
+		font-family: Verdana,Arial,Helvetica,sans-serif;
+		font-size: 12px;
+		font-weight: bold;
+	}
+	.normal12bolditalic {
+		font-family: Verdana,Arial,Helvetica,sans-serif;
+		font-size: 12px;
+		font-style: italic;
+		font-weight: bold;
+	}
+	.normal12red {
+		color: Maroon;
+		font-family: Verdana,Arial,Helvetica,sans-serif;
+		font-size: 12px;
+	}
+	.normal12boldred {
+		color: maroon;
+		font-family: Verdana,Arial,Helvetica,sans-serif;
+		font-size: 12px;
+		font-weight: bold;
+	}
+	.normal14 {
+		font-family: Verdana,Arial,Helvetica,sans-serif;
+		font-size: 14px;
+	}
+	.normal14bold {
+		font-family: Verdana,Arial,Helvetica,sans-serif;
+		font-size: 14px;
+		font-weight: bold;
+	}
+	.normal14red {
+		color: maroon;
+		font-family: Verdana,Arial,Helvetica,sans-serif;
+		font-size: 14px;
+	}
+	.normal16 {
+		font-family: Verdana,Arial,Helvetica,sans-serif;
+		font-size: 16px;
+	}
+	.normal16red {
+		color: maroon;
+		font-family: Verdana,Arial,Helvetica,sans-serif;
+		font-size: 16px;
+	}
+	.normal14boldred {
+		color: maroon;
+		font-family: Verdana,Arial,Helvetica,sans-serif;
+		font-size: 14px;
+		font-weight: bold;
+	}
+	.normal16boldred {
+		color: maroon;
+		font-family: Verdana,Arial,Helvetica,sans-serif;
+		font-size: 16px;
+		font-weight: bold;
+	}
+	.heading3 {
+		font-family: Verdana,Arial,Helvetica,sans-serif;
+		font-size: 18px;
+		font-weight: bold;
+	}
+	.heading2 {
+		font-family: Verdana,Arial,Helvetica,sans-serif;
+		font-size: 20px;
+		font-weight: bold;
+	}
+	.navbar {
+		color: black;
+		font-family: Verdana,Arial,Helvetica,sans-serif;
+		font-size: 12px;
+		font-weight: bold;
+	}
+	A.navbar, A.navbar:visited {
+		color: navy;
+		text-decoration: none;
+	}
+	A.navbar:hover {
+		text-decoration: underline;
+	}
+	.navbarblue {
+		color: #000000;
+		font-family: Verdana,Arial,Helvetica,sans-serif;
+		font-size: 12px;
+		font-weight: bold;
+	}
+	A.navbarblue, A.navbarblue:visited {
+		color: #006699;
+		text-decoration: none;
+	}
+	A.navbarblue:hover {
+		color: navy;
+		text-decoration: underline;
+	}
+	.navbargold {
+		color: #000000;
+		font-family: Verdana,Arial,Helvetica,sans-serif;
+		font-size: 12px;
+		font-weight: bold;
+	}
+	A.navbargold, A.navbargold:visited {
+		color: #CC9900;
+		text-decoration: none;
+	}
+	A.navbargold:hover {
+		color: Navy;
+		text-decoration: underline;
+	}
+
+	</style>
+
+<DIV ALIGN='center' CLASS='normal12'><B>Home</B> | <A HREF='index.php?action=template' CLASS='normal'>Templates</A> | <A HREF='index.php?action=graph' CLASS='normal'>Graphs</A> | <a href='index.php?action=ajax' class='normal'>Ajax</a> | <A HREF='index.php?action=object' CLASS='normal'>Object Oriented</A> | <A HREF='index.php?action=pdo' CLASS='normal'>PDO</A> | <A HREF='index.php?action=xml' CLASS='normal'>XML</A> | <A HREF='index.php?action=webservice' CLASS='normal'>Web Services</A> | <A HREF='docs/learning_objectives_PHP_advanced.pdf' CLASS='normal'>Course Outline</A></DIV>
+
+</body>
+</html>

@@ -1,0 +1,559 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"tot",
+				"totalItems"
+			],
+			[
+				"tota",
+				"totalSales"
+			],
+			[
+				"json_",
+				"json_encode"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"prod",
+				"productId"
+			],
+			[
+				"produc",
+				"productName"
+			],
+			[
+				"Produc",
+				"ProductName"
+			],
+			[
+				"arr",
+				"array"
+			],
+			[
+				"getPr",
+				"getProductName"
+			],
+			[
+				"A",
+				"AgentProfile"
+			],
+			[
+				"product",
+				"productId"
+			],
+			[
+				"getpro",
+				"getProductId"
+			],
+			[
+				"sh",
+				"show"
+			],
+			[
+				"pro",
+				"product"
+			],
+			[
+				"ar",
+				"array"
+			],
+			[
+				"PATH",
+				"PATH_TO_CP"
+			],
+			[
+				"DIR",
+				"DIR_BASE"
+			],
+			[
+				"include",
+				"include_path"
+			],
+			[
+				"set_",
+				"set_include_path"
+			],
+			[
+				"to",
+				"toYear"
+			],
+			[
+				"from",
+				"fromYear"
+			],
+			[
+				"compare",
+				"comparePlot"
+			],
+			[
+				"fromD",
+				"fromDate2"
+			],
+			[
+				"char",
+				"chartSum"
+			],
+			[
+				"fetch_a",
+				"cubrid_fetch_assoc"
+			],
+			[
+				"conn",
+				"ConnectToDataBase"
+			],
+			[
+				"display",
+				"displayErrMsg"
+			],
+			[
+				"if",
+				"if	if …"
+			],
+			[
+				"fr",
+				"fromDate"
+			],
+			[
+				"create",
+				"createDate"
+			],
+			[
+				"functi",
+				"create_function"
+			],
+			[
+				"glo",
+				"global"
+			],
+			[
+				"im",
+				"imgTag"
+			],
+			[
+				"h",
+				"h1	Tag"
+			],
+			[
+				"php",
+				"phpversion"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/User/Run-PHP.sublime-build",
+	"command_palette":
+	{
+		"height": 115.0,
+		"selected_items":
+		[
+			[
+				"Snippet: fun",
+				"Snippet: Function"
+			],
+			[
+				"Snippet: php",
+				"Snippet: <?php … ?>"
+			],
+			[
+				"Snippet: clas",
+				"Snippet: Class"
+			],
+			[
+				"doc",
+				"Goto Documentation"
+			],
+			[
+				"Snippet: func",
+				"Snippet: Function"
+			],
+			[
+				"Snippet: function",
+				"Snippet: function …"
+			],
+			[
+				"git",
+				"Git: Gui"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"do",
+				"Goto Documentation"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"code",
+				"PHP Code Sniffer: Switch coding standard"
+			],
+			[
+				"go",
+				"Goto Documentation"
+			],
+			[
+				"comm",
+				"Toggle Block Comment"
+			],
+			[
+				"com",
+				"Toggle Block Comment"
+			],
+			[
+				"for",
+				"Format Code"
+			],
+			[
+				"g",
+				"Goto Documentation"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"form",
+				"Format Code"
+			],
+			[
+				"goto",
+				"Goto Documentation"
+			],
+			[
+				"Package Control: do",
+				"Package Control: Discover Packages"
+			]
+		],
+		"width": 435.0
+	},
+	"console":
+	{
+		"height": 314.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": true,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/CourseProject/agent.class.php",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/CourseProject/functions.php",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/CourseProject/backend.php",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/ext/templates/a3_graph_view.tpl",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/ext/templates/a1_object_view.tpl",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/CourseProject/includes.php",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/Assignment3/functions.php",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/ext/templates/cp_main_view.tpl",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/ext/templates/a5_maps_view.tpl",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/ext/templates/a4_data_view.tpl",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/CourseProject/graph.php",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/CourseProject/css/project.css",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/Assignment3/js/jquery.js",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/Assignment3/x_graph.php",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/CourseProject/css/generic_map_sidebar.css",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/Assignment3/css/styles.css",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/ext/templates/cp_footer.tpl",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/ext/templates/cp_contact_view.tpl",
+		"/Users/dfdumaresq/Downloads/undelivered.csv",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/CourseProject/xobject.php",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/CourseProject/maps.php",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/ext/templates/cp_header.tpl",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/CourseProject/navbar.php",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/ext/a1_object_view.php",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/CourseProject/links.html",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/CourseProject/js/vancouver_kml_layers.js",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/CourseProject/object.php",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/Assignment2/functions.php",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/Session2/mysmartystart/navbar.php",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/CourseProject/js/vancouver_kml_layers_ready.js",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/CourseProject/fetch_product_selectlist.php",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/Assignment4/data.php",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/CourseProject/js/data_interface_ready.js",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/CourseProject/js/data_interface.js",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/CourseProject/output.txt",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/CourseProject/lab/simple_orderdetails.php",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/CourseProject/contact.php",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/ext/templates/cp_home_view.tpl",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/Session4/phpadvanced/webservice/ajax_flickr_response.php",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/Session4/phpadvanced/webservice/google_rest.php",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/CourseProject/data/orderdetails.xml",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/Sessions/Session4/phpadvanced/xml/simple_orderdetails.php",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/CourseProject/lab/session4/graphics/NorthWind.gif",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/Sessions/Session4/phpadvanced/ajax_example_json/backend.php",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/CourseProject/lab/change.html",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/Assignment3/js/graph_interface.js",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/Sessions/Session4/phpadvanced/ajax_example_json/ajax_send_json.html",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/CourseProject/lab/product.class.php",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/Sessions/Session4/phpadvanced/ajax_example_json/json_example.html",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/Sessions/Session4/rss-feed.php",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/Assignment3/show_graph.php",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/Assignment3/graph.php",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/Assignment3/lab/sql-test1.php",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/Assignment1/agent.class.php",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/Assignment3/includes.php",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/ext/templates/a3_main_view.tpl",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/Sessions/Session2/mysmartystart/templates/main_template.html",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/Assignment4/includes.php",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/ext/MySmarty.php",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/CourseProject/data.php",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/Sessions/Session2/mysmartystart/main.css",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/ext/config.php",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/Assignment4/index.php",
+		"/Users/dfdumaresq/Library/Application Support/Sublime Text 2/Packages/User/assignment3.sublime-project",
+		"/Users/dfdumaresq/Projects/dev-php/phpadvanced/notes.txt",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/Session4/phpadvanced/xml/simple_orderdetails.php",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/Session4/phpadvanced/xml/simple_xml.php",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/Session4/rss-feed.php",
+		"/Users/dfdumaresq/Projects/CloudGraf/Restaurant Inspections/data/RESTAURANTS.xml",
+		"/Users/dfdumaresq/Projects/CloudGraf/ghg-concept.pdf",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/Session4/phpadvanced/xml/nwind.xml",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/Session4/phpadvanced/xml/rss.php",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/Session4/phpadvanced/xml/orderdetails.xml",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/Session4/mysmartystart/navbar.php",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/Session4/mysmartystart/graph.php",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/Session4/mysmartystart/functions.php",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/Session4/mysmartystart/templates/graph_template.html",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/Session4/LAB/json-test.html",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/Assignment3/js/json-test.js",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/Session4/mysmartystart/show_graph.php",
+		"/Users/dfdumaresq/Projects/dev-php/ubc-course/public/Session4/mysmartystart/js/graph_interface_ready.js",
+		"/Users/dfdumaresq/Documents/Amy/twsassignment.odt",
+		"/Users/dfdumaresq/Projects/dev-php/phpadvanced/public/Assignment2/share.php",
+		"/Users/dfdumaresq/Projects/dev-php/phpadvanced/public/Assignment1/index.php",
+		"/Users/dfdumaresq/Projects/dev-php/phpadvanced/public/Assignment1/agent.class.php",
+		"/Users/dfdumaresq/Projects/dev-php/phpadvanced/ext/templates/a2_main_view.tpl",
+		"/Users/dfdumaresq/Projects/dev-php/phpadvanced/public/Assignment3/includes.php",
+		"/Users/dfdumaresq/Projects/dev-php/phpadvanced/public/CourseProject/includes.php",
+		"/Users/dfdumaresq/Projects/dev-php/phpadvanced/ext/MySmarty.php",
+		"/Users/dfdumaresq/Projects/dev-php/phpadvanced/public/Assignment2/about.php",
+		"/Users/dfdumaresq/Projects/dev-php/phpadvanced/public/Assignment2/compare.php",
+		"/Users/dfdumaresq/Projects/dev-php/phpadvanced/public/Assignment2/contact.php",
+		"/Users/dfdumaresq/Projects/dev-php/phpadvanced/public/Assignment2/ask.php",
+		"/Users/dfdumaresq/Projects/dev-php/phpadvanced/public/Assignment3/functions.php",
+		"/Users/dfdumaresq/Projects/dev-php/phpadvanced/smarty/templates/a3_main_view.tpl",
+		"/Users/dfdumaresq/Projects/dev-php/phpadvanced/public/Assignment2/index.php",
+		"/Users/dfdumaresq/Projects/dev-php/phpadvanced/public/Assignment2/includes.php",
+		"/Users/dfdumaresq/Projects/dev-php/phpadvanced/public/Assignment2/functions.php",
+		"/Users/dfdumaresq/Projects/dev-php/phpadvanced/public/Assignment2/templates/a2_about_view.tpl",
+		"/Users/dfdumaresq/Projects/dev-php/phpadvanced/public/Assignment2/templates/a2_main_view.tpl",
+		"/Users/dfdumaresq/Projects/dev-php/phpadvanced/ext/templates/a2_home_view.tpl",
+		"/Users/dfdumaresq/Projects/dev-php/phpadvanced/public/Assignment2/templates/a2_home_view.tpl",
+		"/Users/dfdumaresq/Projects/dev-php/phpadvanced/public/Assignment3/xMySmarty.php",
+		"/Users/dfdumaresq/Projects/dev-php/phpadvanced/smarty/templates/graph_view.tpl",
+		"/Users/dfdumaresq/Projects/dev-php/phpadvanced/CourseProject/templates/header.tpl",
+		"/Users/dfdumaresq/Projects/dev-php/phpadvanced/Assignment3/show_graph.php",
+		"/Users/dfdumaresq/Projects/dev-php/phpadvanced/CourseProject/templates/home_view.tpl",
+		"/Users/dfdumaresq/Projects/dev-php/phpadvanced/CourseProject/templates/main_view.tpl",
+		"/Users/dfdumaresq/Projects/dev-php/phpadvanced/Assignment3/templates/main_view.tpl",
+		"/Users/dfdumaresq/Projects/dev-php/phpadvanced/Session2/mysmartystart/indexx.php",
+		"/Users/dfdumaresq/Projects/dev-php/phpadvanced/Session2/mysmartystart/functions.php",
+		"/Users/dfdumaresq/Projects/dev-php/phpadvanced/Session2/mysmartystart/templates/main_template.html",
+		"/Users/dfdumaresq/Projects/dev-php/phpadvanced/CourseProject/css/project.css",
+		"/Users/dfdumaresq/Projects/dev-php/phpadvanced/Assignment3/includes.php",
+		"/Users/dfdumaresq/Projects/dev-php/phpadvanced/Assignment3/MySmarty.php",
+		"/Users/dfdumaresq/Projects/dev-php/phpadvanced/public/Assignment3/MySmarty.php",
+		"/Users/dfdumaresq/Projects/dev-php/phpadvanced/CourseProject/functions.php",
+		"/Users/dfdumaresq/Library/Application Support/Sublime Text 2/Packages/Git/Git.sublime-settings",
+		"/Users/dfdumaresq/Projects/dev-php/phpadvanced/Assignment2/functions.php",
+		"/Users/dfdumaresq/Projects/dev-php/phpadvanced/Assignment3/functions.php",
+		"/Users/dfdumaresq/Projects/dev-php/phpadvanced/Assignment2/templates/main_view.tpl",
+		"/Users/dfdumaresq/Projects/dev-php/phpadvanced/CourseProject/templates/contact_view.tpl",
+		"/Users/dfdumaresq/Projects/dev-php/phpadvanced/CourseProject/templates/footer.tpl",
+		"/Users/dfdumaresq/Projects/dev-php/phpadvanced/CourseProject/templates/contact.php",
+		"/Users/dfdumaresq/Projects/dev-php/phpadvanced/Assignment2/about.php",
+		"/Users/dfdumaresq/Library/Application Support/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+		"/Users/dfdumaresq/Projects/dev-php/phpadvanced/CourseProject/index.php",
+		"/Users/dfdumaresq/Projects/dev-php/phpadvanced/CourseProject/includes.php"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/dfdumaresq/Projects/dev-php/phpadvanced"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"height: inherit;",
+			"height: 400px;",
+			"The mail system\n",
+			"The mail system\n\n",
+			"height: 80%;",
+			"rapidTransitStationLayer",
+			"function",
+			"unitPrice",
+			"divProductSelect",
+			"calcTotaSales",
+			"Product",
+			"displaySum",
+			"connectToDataBase",
+			"link",
+			"echo",
+			"mysmarty",
+			"phpadvanced",
+			"include_path",
+			"'",
+			");\n",
+			"1",
+			"Year1",
+			"arYear",
+			"arSales",
+			"show",
+			"        \n",
+			"tab",
+			"\\r",
+			"white",
+			"function",
+			"{",
+			"{\n",
+			"brace"
+		],
+		"highlight": true,
+		"in_selection": true,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"rapidTransitStationsLayer",
+			"connect",
+			"\"",
+			"2",
+			"Year2",
+			"fromYear1  = htmlspecialchars($_GET[\"fromYear1\"]);\n$fromMonth1 = htmlspecialchars($_GET[\"fromMonth1\"]);\n$toYear1	= htmlspecialchars($_GET[\"toYear1\"]);\n$toMonth1	= htmlspecialchars($_GET[\"toMonth1\"]);",
+			"arYear1",
+			"arY1Sales",
+			"y1ArSales"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 162.0
+	},
+	"output.git":
+	{
+		"height": 114.0
+	},
+	"output.xdebug_execute":
+	{
+		"height": 114.0
+	},
+	"output.xdebug_inspect":
+	{
+		"height": 114.0
+	},
+	"replace":
+	{
+		"height": 67.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"mysqli",
+				"jpgraph_dynamic/mysqli_functions.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 282.0,
+	"status_bar_visible": true
+}

@@ -1,0 +1,19 @@
+
+#mapContainer {
+  width: 100%;
+  height: 400px;
+}
+#mapDiv {
+  width: 80%;
+  height: inherit;
+  position: absolute;
+}
+
+#sidebarDiv {
+  width: 20%;
+  height: inherit;
+  float: right;
+  overflow: auto;
+  background-color: bisque;
+}
+

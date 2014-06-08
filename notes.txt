@@ -1,0 +1,6 @@
+Note:
+- ext is an external directory containing MySmarty and templates
+
+Handy smarty functions
+
+{$smarty.current_dir}

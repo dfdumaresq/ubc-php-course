@@ -1,0 +1,1 @@
+<p>Here you will be able to share this site with your friends on Twitter and Facebook</p>

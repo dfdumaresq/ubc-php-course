@@ -1,0 +1,98 @@
+body {
+   font-family : "Palatino Linotype", "Book Antiqua", serif;  /* Times, New Roman Georgia, Verdana, Arial, Helvetica, sans-serif; */
+   color:black;
+   background-color: white;
+}
+
+.mainGraphic
+{
+    float:left;
+    padding-right: 10px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.mastHead
+{
+ 6  padding-top: 10px;
+}
+
+#objectContainer {
+    width: 60%;
+    height: 500px;
+}
+
+#objectLHS {
+    margin-left: 40px;
+    width: 50%;
+    /*height: inherit;*/
+    position: absolute;
+}
+
+#objectRHS {
+    /*padding-top: 40px;*/
+    width: 30%;
+    height: inherit;
+    float: right;
+}
+
+#objectMockup {
+    width: 400px;
+}
+
+.objectImg {
+    width: 60px;
+}
+
+.charityImg {
+    width: 80px;
+}
+
+#container
+{
+    margin:0 auto;
+    width:80%;
+
+    background:none repeat scroll 0 0 #FFFFFF;
+    height:100%;
+    min-height:100%;
+    overflow:hidden;
+    position:relative;
+
+    /* height:auto !important;  real browsers */
+    height:100%; /* IE6: treaded as min-height*/
+
+    min-height:100%; /* real browsers */
+}
+
+#header {
+    margin:0 auto;
+    width: 80%;
+}
+
+#footer {
+    margin:0 auto;
+    width: 80%;
+    height: 50px;
+}
+
+#example {
+    /*height: 500px;*/
+}
+
+A:link {
+    color: blue;
+}
+
+A:visited {
+    color: purple;
+}
+
+A:hover {
+	color: green;
+}
+
+A:active {
+    color: red;
+}
+

@@ -1,0 +1,137 @@
+<?php
+
+/* Assignment 1 - Session 1
+ * UBC - Advanced Programming in PHP
+ * author: David Dumaresq
+ */
+
+// AgentProfile is a base class to provide basic information for each of the different accounts that smallChange will provide.
+class AgentProfile
+{
+
+    private $agentName  = "";
+    private $email      = "";
+    private $validated  = FALSE;
+    private $type       = "Agent";
+
+    public function __construct($agentName, $email) {
+        $this->agentName = $agentName;
+        $this->email = $email;
+    }
+
+    public function getType() {
+        return $this->type;
+    }
+
+    public function getAgentName() {
+        return $this->agentName;
+    }
+
+    public function getEmail() {
+        return $this->email;
+    }
+
+    public function validate($value) {
+        $this->validated = $value;
+    }
+
+    public function isValid() {
+        return $this->validated;
+    }
+
+    public function info() {
+
+
+        $result = "Name: " . $this->getAgentName() . " (" . $this->getType(). ")<br />";
+        $result .= "Email: " . $this->getEmail() . "<br />";
+
+        $result .= $this->getAgentName();
+        if ($this->isValid()) {
+            $result .= ": Is Validated<br/>";
+        }
+        else {
+            $result .=  ": Not Validated<br/>";
+        }
+
+        return $result;
+    }
+
+} // end Agent
+
+class Vendor extends AgentProfile
+{
+
+    private $photo;
+    private $vendorId;
+    private $type       = "Vendor";
+
+    public function __construct($agentName, $email, $vendorId, $photo) {
+        parent::__construct($agentName, $email);
+//        echo "In Vendor constructor<br/>";
+        $this->vendorId = $vendorId;
+        $this->photo = $photo;
+    }
+
+    // getters
+    public function getType() {
+        return $this->type;
+    }
+
+    public function getVendorID() {
+        return $this->vendorId;
+    }
+
+    public function getPhoto() {
+        $photo = $this->photo;
+        return '<img class="charityImg" src="' . $photo . '">';
+    }
+
+    // methods
+    public function info() {
+        $result .= parent::info();
+        $result .=  "VendorID: " . $this->getVendorID() . "<br />";
+        $result .=  "Photo: " . $this->getPhoto() . "<br />";
+
+        return $result;
+    }
+
+} // end Vendor
+
+class Charity extends AgentProfile
+{
+
+    private $logo;
+    private $charityNbr = "";
+    private $type       = "Charity";
+
+    public function __construct($agentName, $email, $charityNbr, $logo) {
+        parent::__construct($agentName, $email);
+//        echo "In Charity constructor</br/>";
+        $this->charityNbr = $charityNbr;
+        $this->logo = $logo;
+    }
+
+    // methods
+    public function getType() {
+        return $this->type;
+    }
+
+    public function getCharityNbr() {
+        return $this->charityNbr;
+    }
+
+    public function getLogo() {
+        $logo = $this->logo;
+        return '<img class="objectImg" src="' . $logo . '">';
+    }
+
+    public function info() {
+        $result .= parent::info();
+        $result .= "CharityNbr: " . $this->getCharityNbr() . "<br />";
+        $result .= "Logo: " . $this->getLogo() . "<br />";
+
+        return $result;
+    }
+
+} // end Charity
+
